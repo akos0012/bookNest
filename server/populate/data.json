@@ -1,0 +1,186 @@
+{
+    "books": [
+        {
+            "_id": "65d2f1a8e1dcd32245678901",
+            "title": "1984",
+            "authors": [
+                "65d2f1a8e1dcd32245678910"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678920"
+            ],
+            "publisher_date": "1949-06-08T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678902",
+            "title": "Brave New World",
+            "authors": [
+                "65d2f1a8e1dcd32245678911"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678920"
+            ],
+            "publisher_date": "1932-08-01T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678903",
+            "title": "The Great Gatsby",
+            "authors": [
+                "65d2f1a8e1dcd32245678912"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678921"
+            ],
+            "publisher_date": "1925-04-10T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678904",
+            "title": "To Kill a Mockingbird",
+            "authors": [
+                "65d2f1a8e1dcd32245678913"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678922"
+            ],
+            "publisher_date": "1960-07-11T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678905",
+            "title": "Moby-Dick",
+            "authors": [
+                "65d2f1a8e1dcd32245678914"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678923"
+            ],
+            "publisher_date": "1851-10-18T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678906",
+            "title": "Pride and Prejudice",
+            "authors": [
+                "65d2f1a8e1dcd32245678915"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678921"
+            ],
+            "publisher_date": "1813-01-28T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678907",
+            "title": "The Catcher in the Rye",
+            "authors": [
+                "65d2f1a8e1dcd32245678916"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678921"
+            ],
+            "publisher_date": "1951-07-16T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678908",
+            "title": "War and Peace",
+            "authors": [
+                "65d2f1a8e1dcd32245678917"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678924"
+            ],
+            "publisher_date": "1869-01-01T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678909",
+            "title": "The Hobbit",
+            "authors": [
+                "65d2f1a8e1dcd32245678918"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678925"
+            ],
+            "publisher_date": "1937-09-21T00:00:00.000Z"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678910",
+            "title": "Crime and Punishment",
+            "authors": [
+                "65d2f1a8e1dcd32245678919"
+            ],
+            "genres": [
+                "65d2f1a8e1dcd32245678926"
+            ],
+            "publisher_date": "1866-01-01T00:00:00.000Z"
+        }
+    ],
+    "authors": [
+        {
+            "_id": "65d2f1a8e1dcd32245678910",
+            "name": "George Orwell"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678911",
+            "name": "Aldous Huxley"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678912",
+            "name": "F. Scott Fitzgerald"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678913",
+            "name": "Harper Lee"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678914",
+            "name": "Herman Melville"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678915",
+            "name": "Jane Austen"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678916",
+            "name": "J.D. Salinger"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678917",
+            "name": "Leo Tolstoy"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678918",
+            "name": "J.R.R. Tolkien"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678919",
+            "name": "Fyodor Dostoevsky"
+        }
+    ],
+    "genres": [
+        {
+            "_id": "65d2f1a8e1dcd32245678920",
+            "name": "Dystopian"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678921",
+            "name": "Classic"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678922",
+            "name": "Historical Fiction"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678923",
+            "name": "Adventure"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678924",
+            "name": "War"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678925",
+            "name": "Fantasy"
+        },
+        {
+            "_id": "65d2f1a8e1dcd32245678926",
+            "name": "Crime"
+        }
+    ]
+}
