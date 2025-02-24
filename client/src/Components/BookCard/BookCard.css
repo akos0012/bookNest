@@ -1,0 +1,49 @@
+.Book-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 33.33333%;
+    max-width: 33.33333%;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.Book-card .book-img {
+    text-align: center;
+    cursor: pointer;
+}
+
+.Book-card .book-img img {
+    object-fit: cover;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 144px;
+}
+
+.Book-card .book-info {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem 0 1.5rem;
+    margin-bottom: 10px;
+}
+
+.Book-card .rating-container {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+}
+
+.Book-card .book-info .book-title {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+}
+
+.Book-card .book-info .book-author {
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+    margin: 0;
+}

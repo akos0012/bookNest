@@ -1,0 +1,12 @@
+.BookForm .control {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.BookForm .buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    gap: 10px
+}

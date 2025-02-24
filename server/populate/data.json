@@ -1,4 +1,25 @@
 {
+    "users": [
+        {
+            "username": "testUser1",
+            "password": "pass",
+            "salt": " "
+        },
+        {
+            "username": "testUser2",
+            "password": "pass",
+            "salt": " "
+        },
+        {
+            "username": "testAdmin",
+            "password": "pass",
+            "salt": " ",
+            "roles": [
+                "user",
+                "admin"
+            ]
+        }
+    ],
     "books": [
         {
             "_id": "65d2f1a8e1dcd32245678901",
@@ -9,7 +30,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678920"
             ],
-            "publisher_date": "1949-06-08T00:00:00.000Z"
+            "publication_date": "1949-06-08T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e1f",
+            "averageRating": "4.1"
         },
         {
             "_id": "65d2f1a8e1dcd32245678902",
@@ -20,7 +43,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678920"
             ],
-            "publisher_date": "1932-08-01T00:00:00.000Z"
+            "publication_date": "1932-08-01T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e20",
+            "averageRating": "3.1"
         },
         {
             "_id": "65d2f1a8e1dcd32245678903",
@@ -31,7 +56,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678921"
             ],
-            "publisher_date": "1925-04-10T00:00:00.000Z"
+            "publication_date": "1925-04-10T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e21",
+            "averageRating": "4.6"
         },
         {
             "_id": "65d2f1a8e1dcd32245678904",
@@ -42,7 +69,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678922"
             ],
-            "publisher_date": "1960-07-11T00:00:00.000Z"
+            "publication_date": "1960-07-11T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e22",
+            "averageRating": "2.3"
         },
         {
             "_id": "65d2f1a8e1dcd32245678905",
@@ -53,7 +82,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678923"
             ],
-            "publisher_date": "1851-10-18T00:00:00.000Z"
+            "publication_date": "1851-10-18T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e23",
+            "averageRating": "2.9"
         },
         {
             "_id": "65d2f1a8e1dcd32245678906",
@@ -64,7 +95,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678921"
             ],
-            "publisher_date": "1813-01-28T00:00:00.000Z"
+            "publication_date": "1813-01-28T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e24",
+            "averageRating": "4.0"
         },
         {
             "_id": "65d2f1a8e1dcd32245678907",
@@ -75,7 +108,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678921"
             ],
-            "publisher_date": "1951-07-16T00:00:00.000Z"
+            "publication_date": "1951-07-16T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e25",
+            "averageRating": "3.4"
         },
         {
             "_id": "65d2f1a8e1dcd32245678908",
@@ -86,7 +121,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678924"
             ],
-            "publisher_date": "1869-01-01T00:00:00.000Z"
+            "publication_date": "1869-01-01T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e26",
+            "averageRating": "4.1"
         },
         {
             "_id": "65d2f1a8e1dcd32245678909",
@@ -97,7 +134,9 @@
             "genres": [
                 "65d2f1a8e1dcd32245678925"
             ],
-            "publisher_date": "1937-09-21T00:00:00.000Z"
+            "publication_date": "1937-09-21T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e27",
+            "averageRating": "4.5"
         },
         {
             "_id": "65d2f1a8e1dcd32245678910",
@@ -108,49 +147,81 @@
             "genres": [
                 "65d2f1a8e1dcd32245678926"
             ],
-            "publisher_date": "1866-01-01T00:00:00.000Z"
+            "publication_date": "1866-01-01T00:00:00.000Z",
+            "image": "605c72b2f2b1234f7c9b1e28",
+            "averageRating": "3.2"
         }
     ],
     "authors": [
         {
             "_id": "65d2f1a8e1dcd32245678910",
-            "name": "George Orwell"
+            "name": "George Orwell",
+            "books": [
+                "65d2f1a8e1dcd32245678901"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678911",
-            "name": "Aldous Huxley"
+            "name": "Aldous Huxley",
+            "books": [
+                "65d2f1a8e1dcd32245678902"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678912",
-            "name": "F. Scott Fitzgerald"
+            "name": "F. Scott Fitzgerald",
+            "books": [
+                "65d2f1a8e1dcd32245678903"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678913",
-            "name": "Harper Lee"
+            "name": "Harper Lee",
+            "books": [
+                "65d2f1a8e1dcd32245678904"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678914",
-            "name": "Herman Melville"
+            "name": "Herman Melville",
+            "books": [
+                "65d2f1a8e1dcd32245678905"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678915",
-            "name": "Jane Austen"
+            "name": "Jane Austen",
+            "books": [
+                "65d2f1a8e1dcd32245678906"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678916",
-            "name": "J.D. Salinger"
+            "name": "J.D. Salinger",
+            "books": [
+                "65d2f1a8e1dcd32245678907"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678917",
-            "name": "Leo Tolstoy"
+            "name": "Leo Tolstoy",
+            "books": [
+                "65d2f1a8e1dcd32245678908"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678918",
-            "name": "J.R.R. Tolkien"
+            "name": "J.R.R. Tolkien",
+            "books": [
+                "65d2f1a8e1dcd32245678909"
+            ]
         },
         {
             "_id": "65d2f1a8e1dcd32245678919",
-            "name": "Fyodor Dostoevsky"
+            "name": "Fyodor Dostoevsky",
+            "books": [
+                "65d2f1a8e1dcd32245678910"
+            ]
         }
     ],
     "genres": [
@@ -181,6 +252,170 @@
         {
             "_id": "65d2f1a8e1dcd32245678926",
             "name": "Crime"
+        }
+    ],
+    "images": [
+        {
+            "_id": "605c72b2f2b1234f7c9b1e1f",
+            "source": "./populate/img/1984.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e20",
+            "source": "./populate/img/Brave_New_World.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e21",
+            "source": "./populate/img/Crime_and_Punishment.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e22",
+            "source": "./populate/img/Moby-Dick.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e23",
+            "source": "./populate/img/Pride_and_Prejudice.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e24",
+            "source": "./populate/img/The_Catcher_in_the_Rye.png"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e25",
+            "source": "./populate/img/The_Great_Gatsby.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e26",
+            "source": "./populate/img/The_Hobbit.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e27",
+            "source": "./populate/img/To_Kill_a_Mockingbird.jpg"
+        },
+        {
+            "_id": "605c72b2f2b1234f7c9b1e28",
+            "source": "./populate/img/War_and_Peace.jpg"
+        }
+    ],
+    "ratings": [
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678901",
+            "rating": 5,
+            "comment": "An absolute masterpiece! Thought-provoking and chilling."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678902",
+            "rating": 3,
+            "comment": "Interesting concept, but the pacing felt a bit slow."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678903",
+            "rating": 4,
+            "comment": "Loved the writing style, but the story was a bit tragic."
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678904",
+            "rating": 2,
+            "comment": "Didn't quite live up to the hype for me."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678905",
+            "rating": 4,
+            "comment": "A difficult but rewarding read."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678906",
+            "rating": 5,
+            "comment": "Absolutely charming and delightful!"
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678907",
+            "rating": 3,
+            "comment": "A classic, but I struggled to connect with the protagonist."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678908",
+            "rating": 5,
+            "comment": "Epic in every sense of the word."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678909",
+            "rating": 4,
+            "comment": "A fun adventure story!"
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678910",
+            "rating": 3,
+            "comment": "A deep and dark novel, but a bit heavy for my taste."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678901",
+            "rating": 4,
+            "comment": "Scary how relevant this still feels."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678902",
+            "rating": 2,
+            "comment": "Not my favorite, but I see its appeal."
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678903",
+            "rating": 5,
+            "comment": "One of the greatest books ever written."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678904",
+            "rating": 3,
+            "comment": "Some powerful themes, but slow in parts."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678905",
+            "rating": 1,
+            "comment": "Too long and dense for my liking."
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678906",
+            "rating": 4,
+            "comment": "A lovely romance with great wit."
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678907",
+            "rating": 2,
+            "comment": "Just couldn't get into this one."
+        },
+        {
+            "username": "testAdmin",
+            "book": "65d2f1a8e1dcd32245678908",
+            "rating": 5,
+            "comment": "An unforgettable experience."
+        },
+        {
+            "username": "testUser1",
+            "book": "65d2f1a8e1dcd32245678909",
+            "rating": 4,
+            "comment": "A charming and magical tale!"
+        },
+        {
+            "username": "testUser2",
+            "book": "65d2f1a8e1dcd32245678910",
+            "rating": 5,
+            "comment": "A deep psychological novel that lingers in the mind."
         }
     ]
 }

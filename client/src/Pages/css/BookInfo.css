@@ -1,0 +1,64 @@
+.BookInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.BookInfo .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+}
+
+.BookInfo .container .book-info {
+    width: 100%;
+    border-left: solid 1px #0000006b;
+    padding-left: 40px;
+}
+
+.BookInfo .container .book-info .book-title {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.BookInfo .container .book-info .book-author {
+    font-size: 12px;
+    margin: 0;
+}
+
+.BookInfo .container .book-img {
+    margin: 0 10px 0 10px;
+}
+
+.BookInfo .container .book-img img {
+    width: 180px;
+    height: 290px;
+}
+
+.BookInfo .container .book-genre {
+    font-size: 10px;
+}
+
+.BookInfo .container h5 {
+    margin-bottom: 0;
+}
+
+.BookInfo .container .book-info .averageStarRating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.BookInfo .container .book-info .averageStarRating span {
+    font-size: 13px;
+}
+
+.BookInfo .container .book-info .favorite {
+    position: relative;
+    top: 15px;
+}
+
+.BookInfo .container .book-info .book-publication-date {
+    margin: 0;
+    font-size: 15px;
+}

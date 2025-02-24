@@ -1,0 +1,35 @@
+.GenreTable {
+    padding: 0.5rem;
+}
+
+.GenreTable table {
+    font-size: 10px;
+    text-align: left;
+}
+
+.GenreTable td {
+    border: solid black 1px;
+}
+
+.GenreTable button {
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.GenreTable .deleteButton {
+    background-color: rgb(237, 177, 177);
+}
+
+.GenreTable .search {
+    margin-bottom: 10px;
+}
+
+.GenreTable .search button {
+    margin-left: 5px;
+}
+
+.GenreTable .createButton {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(159, 244, 179);
+}

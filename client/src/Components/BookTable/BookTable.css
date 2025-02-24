@@ -1,0 +1,35 @@
+.BookTable {
+    padding: 0.5rem;
+}
+
+.BookTable table {
+    font-size: 10px;
+    text-align: left;
+}
+
+.BookTable td {
+    border: solid black 1px;
+}
+
+.BookTable button {
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.BookTable .deleteButton {
+    background-color: rgb(237, 177, 177);
+}
+
+.BookTable .search {
+    margin-bottom: 10px;
+}
+
+.BookTable .search button {
+    margin-left: 5px;
+}
+
+.BookTable .createButton {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(159, 244, 179);
+}

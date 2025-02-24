@@ -1,0 +1,22 @@
+.Home .product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Home .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.Home .pagination-controls span {
+    font-size: 14px;
+}
+
+.Home .pagination-controls button {
+    background-color: rgba(255, 0, 0, 0);
+    position: relative;
+    bottom: 3px;
+    border: none;
+    cursor: pointer;
+}

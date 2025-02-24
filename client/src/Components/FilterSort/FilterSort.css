@@ -1,0 +1,32 @@
+.FilterSort {
+    display: flex;
+    flex-direction: column
+}
+
+.FilterSort .search span {
+    font-size: 12px;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.FilterSort .search input {
+    border-radius: 0;
+    border: solid 1px black;
+}
+
+.FilterSort .search {
+    display: flex;
+}
+
+.FilterSort .sort {
+    display: flex;
+}
+
+.FilterSort .sort label {
+    font-size: 10px;
+}
+
+.FilterSort .sort select {
+    font-size: 10px;
+    border-radius: 0;
+}

@@ -5,11 +5,16 @@ import genreRoutes from "./routes/genreRoutes.js";
 import authoRoutes from "./routes/authorRoutes.js";
 import bookRoutes from "./routes/bookRoutes.js";
 import imageRoutes from "./routes/imageRoutes.js";
-const { MONGO_URL, PORT } = process.env;
+import loginRoutes from "./routes/loginRoutes.js";
+import ratingRoutes from "./routes/ratingRoutes.js";
+import favoriteRoutes from "./routes/favoriteRoutes.js";
+import registerRoutes from "./routes/registerRoutes.js";
+
+const { MONGO_URL, PORT, SECRET_KEY } = process.env;
 import cors from "cors";
 
-if (!MONGO_URL) {
-    console.error("Missing MONGO_URL environment variable");
+if (!MONGO_URL || !SECRET_KEY) {
+    console.error("Missing required environment variables: MONGO_URL or SECRET_KEY");
     process.exit(1);
 }
 
@@ -24,10 +29,14 @@ const corsOptions = {
 
 app.use(cors(corsOptions));
 
+app.use('/api', loginRoutes);
 app.use('/api', genreRoutes);
 app.use('/api', authoRoutes);
 app.use('/api', bookRoutes);
 app.use('/api', imageRoutes);
+app.use('/api', ratingRoutes);
+app.use('/api', favoriteRoutes);
+app.use('/api', registerRoutes);
 
 const main = async () => {
     await connect(MONGO_URL);

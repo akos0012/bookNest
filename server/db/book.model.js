@@ -16,7 +16,7 @@ const BookSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: "Genre"
     }],
-    publisher_date: {
+    publication_date: {
         type: Date,
         required: true
     },

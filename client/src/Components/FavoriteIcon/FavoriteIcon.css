@@ -1,0 +1,12 @@
+.favoriteContainer {
+    display: flex;
+}
+
+.favoriteIcon {
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.favoriteIcon:hover {
+    transform: scale(1.1);
+}

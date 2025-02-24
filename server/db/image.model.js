@@ -2,7 +2,10 @@ import mongoose, { model } from "mongoose";
 const { Schema } = mongoose;
 
 const ImageSchema = new Schema({
-    img: String
+    data: {
+        type: Buffer,
+        required: true
+    }
 });
 
 export default model("Image", ImageSchema);

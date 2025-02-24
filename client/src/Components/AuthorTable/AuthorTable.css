@@ -1,0 +1,35 @@
+.AuthorTable {
+    padding: 0.5rem;
+}
+
+.AuthorTable table {
+    font-size: 10px;
+    text-align: left;
+}
+
+.AuthorTable td {
+    border: solid black 1px;
+}
+
+.AuthorTable button {
+    font-size: 9px;
+    cursor: pointer;
+}
+
+.AuthorTable .deleteButton {
+    background-color: rgb(237, 177, 177);
+}
+
+.AuthorTable .search {
+    margin-bottom: 10px;
+}
+
+.AuthorTable .search button {
+    margin-left: 5px;
+}
+
+.AuthorTable .createButton {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: rgb(159, 244, 179);
+}

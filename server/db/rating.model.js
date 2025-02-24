@@ -2,10 +2,9 @@ import mongoose, { model } from "mongoose";
 const { Schema } = mongoose;
 
 const RatingSchema = new Schema({
-    user: {
-        type: Schema.Types.ObjectId,
+    username: {
+        type: String,
         required: true,
-        ref: "User"
     },
     book: {
         type: Schema.Types.ObjectId,

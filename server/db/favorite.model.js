@@ -2,9 +2,8 @@ import mongoose, { model } from "mongoose";
 const { Schema } = mongoose;
 
 const FavoriteSchema = new Schema({
-    user: {
-        type: Schema.Types.ObjectId,
-        ref: "User",
+    username: {
+        type: String,
         required: true
     },
     book: {
